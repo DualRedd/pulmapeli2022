@@ -7,13 +7,11 @@ const clue = document.getElementById("clue");
 const numberDisplay = document.getElementById("number-display");
 
 var enteredCode = ""
-const code = "1085"
 const numberDisplayBaseColor = ParseRGBValue(window.getComputedStyle(numberDisplay).backgroundColor);
 const numberDisplayAcceptColor = [14, 77, 45]
 const numberDisplayDenyColor = [131, 35, 35]
 var colorTimer = 0;
 var accepted = false
-
 
 
 if(GetCookie("cleared") == "1"){
@@ -38,7 +36,8 @@ function DeleteButtonPressed(){
 }
 
 function CheckCode(){
-  if(enteredCode == code && !transitioned){
+  // EI HUIJATA <3
+  if(enteredCode == ((4318781 << 2)+710*3+((200 | (2 << 3))/3)*Math.sqrt(60871204)).toString() && !transitioned){
     transitioned = true;
     document.cookie = "cleared=1";
     clue.style.display = "block";

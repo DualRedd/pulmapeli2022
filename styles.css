@@ -20,7 +20,7 @@
     position: relative;
     width: 200px;
     left: 50%;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .overlay {
@@ -130,8 +130,6 @@
 @media only screen and (max-width: 400px) {
     .note-image {
         width: 150px;
-        left: 50%;
-        margin-top: 50px;
     }
 }
 
