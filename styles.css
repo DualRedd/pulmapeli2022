@@ -15,6 +15,14 @@
     background-color: rgb(0, 0, 0, 0);
 }
 
+.note-image {
+    background-color: rgb(0, 0, 0, 0);
+    position: relative;
+    width: 200px;
+    left: 50%;
+    margin-top: 50px;
+}
+
 .overlay {
     position: fixed;
     width: 100vw;
@@ -119,7 +127,11 @@
     
 }
 
-@media only screen and (max-width: 360px) {
-    
+@media only screen and (max-width: 400px) {
+    .note-image {
+        width: 150px;
+        left: 50%;
+        margin-top: 50px;
+    }
 }
 
