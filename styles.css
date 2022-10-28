@@ -1,26 +1,87 @@
 
 * {
-    background-color: bisque;
+    background-color: orange;
     margin: 0;
 }
 
 .seasons-image {
+    display: none;
     position: fixed;
     height: 98vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
     left: 50%;
     margin-left: -34.5vh;
+    background-color: rgb(0, 0, 0, 0);
 }
-
 
 .overlay {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: greenyellow;
+    background-color: rgb(33, 33, 33);
 }
 
+.bg-texture {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+.number-lock-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
+
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0);
+    margin-top: 20vh;
+}
+
+.number-lock-button {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+
+    background-color: rgb(42, 39, 49);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.number-lock-button:active {
+    background-color: rgb(33, 31, 37);
+}
+
+
+.backspace-icon {
+    background-color: rgb(0, 0, 0, 0);
+    height: 55px;
+    margin-top: 8px;
+    margin-right: 3px;
+}
+
+.number-lock-display {
+    width: 260px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    grid-column: 1 / span 3;
+
+    background-color: rgb(42, 39, 49);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+}
 
 
 @media (max-aspect-ratio: 7/10) {

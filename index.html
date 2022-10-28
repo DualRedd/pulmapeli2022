@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <title> LOKAKUU </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <img class="bg-texture" src="images/BlackTexture.jpg"> </img>
+        <img class="seasons-image" id="clue" src="images/seasons.png">
+
+        <div class="overlay" id="overlay">
+            <img class="bg-texture" src="images/BlackTexture.jpg"> </img>
+            <div class="number-lock-grid">
+                <div class="number-lock-display" id="number-display"> </div>
+                <button class="number-lock-button" onclick="NumberButtonPressed(7)"> 7 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(8)"> 8 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(9)"> 9 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(4)"> 4 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(5)"> 5 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(6)"> 6 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(1)"> 1 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(2)"> 2 </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(3)"> 3 </button>
+                <button class="number-lock-button" onclick="CheckCode()"> OK </button>
+                <button class="number-lock-button" onclick="NumberButtonPressed(0)"> 0 </button>
+                <button class="number-lock-button delete-button"  onclick="DeleteButtonPressed()">
+                    <img class="backspace-icon" src="images/backspace.png"></img>
+                </button>
+            </div>
+        </div>
+
+    </body>
+
+
+    <script src="main.js"></script>
+</html>
