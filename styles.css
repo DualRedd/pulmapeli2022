@@ -1,0 +1,42 @@
+
+* {
+    background-color: bisque;
+    margin: 0;
+}
+
+.seasons-image {
+    position: fixed;
+    height: 98vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    left: 50%;
+    margin-left: -34.5vh;
+}
+
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+}
+
+
+
+@media (max-aspect-ratio: 7/10) {
+  .seasons-image {
+    height: auto;
+    width: 98vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    left: 0;
+    top: 50%;
+    margin-top: -72vw;
+  }
+}
+
+
+@media only screen and (max-width: 1500px) {
+    
+}
+
