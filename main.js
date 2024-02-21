@@ -36,7 +36,7 @@ function DeleteButtonPressed(){
 }
 
 function CheckCode(){
-  // EI HUIJATA <3
+  // No cheating :)
   if(enteredCode == ((4318781 << 2)+710*3+((200 | (2 << 3))/3)*Math.sqrt(60871204)).toString() && !transitioned){
     transitioned = true;
     document.cookie = "cleared=1";
